@@ -1,0 +1,559 @@
+ @media (min-width:1400px) and (max-width:1500px)
+ {
+    .banar h3 {
+        width: 58%;
+    }
+    form input[type="submit"] {
+        padding: 13px 98px;
+    }
+    .part-one {
+        width: 75%;
+        margin-top: 22% !important;
+    }
+    .part p {
+       
+        font-size: 32px;
+    }
+    .part h5{
+        font-size: 60px;
+    }
+    
+ }
+ @media (min-width:1200px) and (max-width:1399px){
+    .banar h3 {
+     width: 66%;
+        
+    }
+    .part-one img{
+        width: 75% !important;
+        margin-top:83px;
+    }
+    .part p {
+     
+        font-size: 19px;
+    }
+    .part h5{
+        font-size: 60px;
+    }
+ }
+ @media (min-width:992px) and (max-width:1199px){
+    form input[type="submit"] {
+        padding: 13px 54px;
+    }
+    .part-one {
+        width: 82%;
+        margin-top: 20% !important;
+    }
+    .part p {
+       
+        font-size: 19px;
+    }
+    .part h5{
+        font-size: 50px;
+    }
+ }
+ 
+ @media (min-width:768px) and (max-width:991px){
+
+    .contact-one h4 {
+        margin-left: 37%;
+        width: 25%;
+    }
+    form input[type="submit"] {
+        padding: 13px 23px;
+    }
+    .features-three ul {
+         margin-left: 0px;
+    }
+    .features-one img {
+        width: 81%;
+    }
+    .lorem p {
+        font-size: 13px;
+}
+.banar h1 {
+    
+    font-size: 82px;
+}
+
+.images-part img {
+    
+    padding-bottom: 10px; 
+}
+.ellips {
+    width: 20%;
+    margin-left: 13%;
+}
+.images-part img {
+    width: 100%;
+}
+.manu-part h1 {
+   
+    font-size: 24px;
+}
+ .section{
+     margin-top: 158px;
+ }
+ .part-one img {
+    margin-top: 202px;
+ }
+ .part p {
+    
+    font-size: 16px;
+ }
+ .part h5{
+    font-size: 49px;
+}
+
+}
+ @media (min-width:576px) and (max-width:767px){
+    header{
+        
+    }
+    
+    .burger-one {
+        margin-top: 22px;
+    }
+    .section {
+        margin-left: -75px;
+        margin-bottom: 29px;
+      
+        
+    }
+
+
+.banar h1{
+    font-size: 100px;
+}
+.burger-two {
+    margin-top: 60%;
+    margin-left: -13%;
+}
+.burger-three {
+    margin-top: -14%;
+    margin-left: 54%;
+}
+.burger-one img {
+    width: 74%;
+}
+
+
+.banar h3 {
+    
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    width: 85%;
+    
+}
+.banar-one{
+    text-align: center;
+}
+.contact-one h4 {
+    
+    margin-left: 32%;
+    width: 34%;
+} 
+.lorem-img-part {
+    margin-top: 29px;
+}
+.lorem img {
+    margin-top: 29px;
+}
+.part{
+    padding-left: 0;
+}
+.owl-carousel .owl-item img {
+    margin-top: 84%;
+}
+.part h1{
+    font-size: 32px;
+    
+}
+.icon-box {
+    margin-left: -118px;
+    margin-bottom: 10px;
+}
+.features-two {
+    padding-left: 53px;
+}
+.features-three {
+    margin-top: 4%;
+   
+    margin-left: -83px;
+    
+}
+.features-one p{
+    text-align: center;
+    font-size: 18px;
+}
+.features-one img {
+    margin-left: 81px;
+    width: 61%;
+}
+.features-three ul li {
+   font-size: 19px;
+    letter-spacing: 1px;
+}
+
+
+form input[type="submit"] {
+    
+    padding: 13px 67px;
+}
+.contact-us {
+    padding-top: 80px;
+}
+.carosul{
+    margin-top: 0;
+}
+.part-one{
+    display: none;
+}
+.carousel img{
+    display: inherit !important;
+}
+} 
+@media (min-width:0px) and (max-width:575px){
+    .burger-one img {
+        padding-bottom: 10px;
+    }
+    .contact-one h4 {
+       
+        margin-left: 24%;
+        width: 50%;
+    }
+    .lorem {
+        margin-bottom: 40px;
+    }
+    .icon-box {
+        margin-left: -155px;
+        margin-bottom: 10px;
+    }
+    .features-two p{
+        text-align: center;
+    }
+    .contact-one h4 {
+       
+        margin-left: 34%;
+        width: 30%;
+    }
+    .banar h1{
+        font-size: 86px;
+    }
+    .burger-two {
+        margin-top: 60%;
+        margin-left: -13%;
+    }
+    .burger-three {
+        margin-top: -14%;
+        margin-left: 54%;
+    }
+    .burger-one img {
+        width: 74%;
+    }
+    
+    
+    .banar h3 {
+        margin-left: 69px;
+        width: 74%;
+        
+    }
+    .banar-one{
+        text-align: center;
+    }
+    .images-part{
+        margin-top:40px;
+        text-align: center;
+    }
+    .manu-part {
+        text-align: center;
+    }
+    .manu-part h1 {
+        
+        left: 87px;
+    }
+    .features-three {
+        margin-left: -91px;
+    }
+    .part-one{
+        display: none;
+    }
+    .carousel img{
+        display: inherit !important;
+    }
+    
+}
+
+@media (min-width:0px) and (max-width:425px){
+    .burger-one img {
+        padding-bottom: 10px;
+    }
+    .contact-one h4 {
+       
+        margin-left: 27%;
+        width: 44%;
+    }
+    .lorem {
+        margin-bottom: 40px;
+    }
+    form input[type="submit"] {
+        padding: 13px 148px !important;
+    }
+    .sell{
+        width: 100%;
+    }
+    .features-three ul {
+   
+        margin-left: 0px; 
+   }
+   .features-three {
+   
+    margin-left: 0px; 
+}
+   .icon-box {
+    margin-left: -62px;
+    margin-bottom: 10px;
+}
+.features-one img {
+    width: 62%;
+}
+.banar h1 {
+        
+    font-size: 75px;
+}
+.banar-one {
+   
+    text-align: center;
+}
+.contact-us {
+    padding-top: 69px;
+    
+}
+.banar h2 {
+    
+    font-size: 50px;
+}
+.banar h3 {
+    margin-left: 44px;
+    font-size: 12px;
+}
+.manu-part h1 {
+    left: 87px;
+    font-size: 23px;
+}
+.images-part {
+    text-align: center;
+}
+.section {
+    margin-top: 47px;
+}
+.part-one{
+    display: none;
+}
+.carousel img{
+    display: inherit !important;
+}
+.logo{
+    width: 85%;
+}
+
+}
+@media (min-width:0px) and (max-width:375px){
+    
+    .features-three {
+        margin-left: -11px;
+    }
+    .section{
+        margin-left: 0px !important;
+        margin-top: 0;
+    }
+    .manu-part h1 {
+        left: 79px;
+        font-size: 20px;
+    }
+    .images-part {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .banar h1 {
+        
+        font-size: 66px;
+    }
+    .banar-one {
+       
+        text-align: center;
+    }
+    
+    .banar h2 {
+        
+        font-size: 50px;
+    }
+    .banar h3 {
+       
+        font-size: 11px;
+    }
+    .burger-one img {
+        padding-bottom: 10px;
+    }
+    .contact-one h4 {
+       
+        margin-left: 24%;
+        width: 50%;
+    }
+    .lorem {
+        margin-bottom: 40px;
+    }
+    form input[type="submit"] {
+        font-size: 20px;
+        padding: 13px 113px !important;
+    }
+    .sell{
+        width: 100%;
+    }
+    .features-three ul {
+   
+        margin-left: 0px; 
+   }
+   .icon-box {
+    margin-left: -35px;
+    margin-bottom: 10px;
+}
+.features-three ul li {
+   
+    font-size: 20px;
+}
+.features-one img {
+    width: 70%;
+}
+.contact-us {
+    padding-top: 57px;
+}
+.part-one{
+    display: none;
+}
+.carousel img{
+    display: inherit !important;
+}
+.logo{
+    width: 85%;
+}
+
+}
+@media (min-width:0px) and (max-width:320px){
+    .section{
+        margin-left: 0px !important;
+        margin-top: 0;
+    }
+    .banar h1 {
+        font-size: 72px;
+    }
+    .banar h2 {
+        font-size: 47px;
+    }
+    .section {
+        margin-left: -50px;
+    }
+    .burger-one {
+        text-align: center;
+    }
+    .images-part {
+        margin-bottom: 21px;
+    }
+    .lorem {
+        margin-bottom: 35px;
+    }
+    
+.manu-part h1 {
+   
+    font-size: 19px;
+   padding-bottom:20px;
+    top: 16px;
+    left: 56px;
+}
+.burger-one img {
+    width: 95%;
+}
+.contact-one h4 {
+    margin-left: 19%;
+    width: 56%;
+}
+.contact-one h1 {
+   
+    font-size: 49px;
+}
+.lorem p {
+    font-size: 14px;
+}
+.lorem img {
+    width: 54%;
+}
+.lorem h1 {
+    
+    font-size: 27px;
+}
+.features-one img {
+    margin-left: 8px;
+    width: 78%;
+}
+.features-one p {
+   
+    font-size: 15px;
+}
+.features-two {
+    padding-left: 0;
+}
+.features-two p {
+    
+    font-size: 18px;
+    text-align: center;
+}
+.icon-box i {
+  text-align: center;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    
+}
+.features-three {
+   margin-top:0;
+     margin-left: 0;
+}
+ .features-three ul {
+   
+     margin-left: 0px; 
+}
+.features-three ul li i {
+    
+    font-size: 23px;
+}
+.features-three ul li {
+    font-size: 16px;
+} 
+.icon-box {
+    margin-left: -27px;
+}
+form input[type="submit"] {
+    padding: 13px 91px !important;
+}
+.sell{
+    width: 100%;
+}
+.burger-one {
+    margin-bottom: 13px;
+}
+.part-one{
+    display: none;
+}
+.carousel img{
+    display: inherit !important;
+}
+.logo
+{
+    width: 85%;
+}
+.carousel{
+display: block;
+width: 100%;
+}
+}

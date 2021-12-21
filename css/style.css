@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #febf44;
+
+}
+.logo{
+ width: 41%;
+}
+.navbar-light .navbar-brand{
+    width: 50%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+color:#3d2514;
+text-transform: uppercase;
+font-weight: bold;
+font-family:'Bebas Neue';
+letter-spacing: 1px;
+font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link :hover {
+    color:#3d2514;
+
+}
+
+.banar-one{
+    margin-top:10%;
+
+}
+.banar h3{
+         color:#3d2514;
+        font-size: 16px;
+        text-transform: uppercase;
+        border: 2px dashed #3d2514;
+        padding: 10px 15px;
+        width: 81% !important;
+}
+.section{
+    margin-top: 158px;
+}
+.lorem img{
+
+}
+.banar h2{
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow:  2px 1px 0px #fff;
+}
+.banar h1{
+    text-shadow:  4px 2px 0px #fff;
+
+    font-size: 120px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-family:'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+}
+
+.images-part{
+
+
+}
+.images-part img{
+    width:75%;
+    margin-bottom: -87px;
+}
+.ellips{
+
+        width: 20%;
+        margin-left: 28%;
+
+}
+.manu-part{
+
+}
+
+ .burger-one{
+
+    position: relative;
+
+}
+.manu-part h1{
+    font-family: 'Bebas Neue';
+    font-size: 33px;
+    color: #fff;
+    position: absolute;
+    top: 16px;
+    left: 10px;
+}
+
+.manu-part span{
+    font-family:'Bebas Neue';
+    font-size: 10px;
+ color: #fff;
+}
+ .burger-one img{
+ }
+
+
+.contact-us{
+    padding-top: 150px;
+    text-align: center;
+}
+
+.contact-one{
+
+}
+.contact-one h4{
+    padding-top:5px;
+    text-align: center;
+    margin-left:42%;
+    width: 15%;
+    background-color: #ffc045;
+    font-size:20px;
+    color: #3d2514;
+    text-transform: uppercase;
+    font-family:'Bebas Neue';
+}
+.contact-one h1{
+    font-weight: 700;
+    font-size:60px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-family:'Bebas Neue';
+}
+.contact-one p{
+    text-align: center;
+    color: #a49991
+
+
+}
+.toggler-icon i{
+ color: #fff;
+}
+.lorem{
+    text-align: center;
+
+}
+.lorem-img-part{
+    width: 80%;
+
+}
+.lorem h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #3d2514;
+    font-family:'Bebas Neue';
+}
+.lorem p{
+    font-size: 16px;
+    color: #3d2514;
+    margin-bottom: 30px;
+}
+.btn-set{
+
+    background-color: #bf2222;
+    color: #fff;
+    text-transform: uppercase;
+    padding:10px 22px;
+    font-weight: 800;
+    font-size: 14px;
+
+}
+.btn-set:hover{
+    background-color: #fff;
+    border: 1px solid red;
+    color: red;
+}
+.carosul{
+ margin-top:10%
+}
+.part{
+    padding-left: 13px;
+ padding-top:85px
+}
+.part h5{
+    color: #3d2514;
+    font-size: 25px;
+    font-family:'Bebas Neue';
+}
+.part h1{
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-size: 60px;
+    color: #3d2514;
+    font-family:'Bebas Neue';
+}
+.part p{
+  line-height: 27px;
+    font-size: 15px;
+}
+.part-one{
+    width: 90%;
+}
+.part-one img{
+    width: 100%;
+}
+.box{
+    box-shadow:23px 25px 31px 3px grey
+
+
+}
+.form-control{
+    border: 2px solid #3d2514;
+    padding:12px 13px;
+}
+.form-part{
+ background-image: url(../img/bg.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ min-height: 90vh;
+ margin-top:8px;
+}
+.box-2 h5{
+ margin-top: 10%;
+ font-size: 25px;
+ color: #3d2514;
+ font-family:'Bebas Neue';
+}
+.box-2 h1{
+    letter-spacing: 5px;
+    font-weight: 900;
+    font-size: 60px;
+    color: #3d2514;
+    font-family:'Bebas Neue';
+}
+.contact-form{
+ /* text-align: center; */
+ align-items: center;
+ justify-content: center;
+ margin-top: 50px;
+}
+
+
+form input[type="submit"]{
+    font-family:'Bebas Neue';
+letter-spacing: 4px;
+  background: #bf2222;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 900;
+  padding: 13px 75px;
+  border: none;
+}
+form input[type="submit"]:hover{
+    background-color: #fff;
+    color: #bf2222;
+    border: 1px solid #bf2222;
+}
+form input:focus{
+
+    box-shadow:none !important;
+    border: 2px solid #3d2514 !important;
+ }
+.form-control::placeholder{
+    font-family:'Bebas Neue';
+    color: #3d2514;
+    font-size: 20px;
+}
+footer{
+
+}
+.features{
+padding-top: 50px;
+background-image: url(../img/hhi.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.features-one{
+
+}
+.features-one img{
+  width: 50%;
+}
+.features-one p{
+
+ padding-top: 55px;
+ color: rgb(189, 180, 180);
+ font-size: 15px;
+}
+ .features-two{
+
+}
+.features-two p{
+    color: rgb(189, 180, 180);
+    font-size: 18px;
+}
+.features-three{
+ margin-top: 12%;
+
+}
+.features-three ul{
+    list-style: none;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 185px;
+}
+.features-three ul li{
+    padding-top: 20px;
+    color: #fff;
+    font-size: 20px;
+
+    font-family:'Bebas Neue';
+
+}
+.features-three ul li i{
+    color: #fff;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.sell{
+
+}
+.sell-bt{
+
+}
+.icon-box{
+
+}
+.icon-box i{
+    padding: 7px 5px;
+     height: 35px;
+     width: 35px;
+     text-align: center;
+     border-radius: 50px;
+     background-color: #fff;
+     font-size: 22px;
+     color: black
+
+}
+
+.icon-box i:hover{
+    color: rgb(136, 9, 9);
+    border-radius: 50px;
+}
+.owl-dots .owl-dot span{
+    background: #3d2514;
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.owl-dots .active span{
+   height: 12px;
+   width: 12px;
+   background:rgb(136, 9, 9); ;
+
+}
+ .owl-dots{
+   padding:60px 0 10px 10px;
+
+}
+
+.burger-two{
+
+}
+
+
+.burger-one span{
+
+}
+.owl-nav{
+    display: none;
+}
+
+.carousel img{
+display: none !important;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+
+  * {box-sizing:border-box}
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+}
