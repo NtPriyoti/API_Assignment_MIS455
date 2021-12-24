@@ -1,38 +1,139 @@
-function meals (){
-    var typed = document.getElementById("textBox").value;
+const searchBtn = document.getElementById("search-button");
+const searchField = document.getElementById("search-field");
 
-    // var url = `https://api.covid19api.com/country/${typed}/status/confirmed`;
-    var url = `https://www.themealdb.com/api/json/v1/1/search.php?f=${typed}`;
+searchField.addEventListener("keypress", function (e) {
+    if (e.key == 'Enter') {
+        searchBtn.click();
+    }
+});
 
 
-    fetch (url)
-    .then(res => res.json())
-    .then(data => process(data.meals));
+const searchMeals = async () => {
+    const searchField = document.getElementById('search-field');
+    const searchText = searchField.value;
+    console.log(searchText);
+    // clear data
+    searchField.value = '';
+    if (searchText == '') {
+        const searchResult = document.getElementById('search-result');
+        let result;
+        setTimeout(() => {
+            searchResult.innerHTML = ``;
+        }, 3000)
+        searchResult.innerHTML =
+            `
+            <div class="error fs-5">No Result Exists! Please Search Again</div>
+        `  ;
+        return result = searchResult.innerHTML;
+    }
+    else {
+        // load data
+        const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${searchText}`;
+        // console.log(url)
+
+        const res = await (fetch(url));
+        const data = await res.json();
+        try {
+            displayMeal(data.meals);
+        }
+        catch (err) {
+            displayError(err);
+        }
+
+        //or
+        // fetch(url).then((response) => response.json()).then(data => displayMeal(data.meals)).catch(err => displayError(err));
+    }
 }
 
-function process (data) {
-    // console.log (data);
-    var infoBox = document.getElementById("mealsData");
+const displayError = err => {
+    const searchResult = document.getElementById('search-result');
+    console.log(typeof err)
+    searchResult.innerHTML = `<div class="error fs-5">Result Doesn't Exist!</div>`;
+    setTimeout(() => {
+        searchResult.innerText = ``;
+    }, 3000)
+}
 
-    for (var i=0; i<data.length; i++ ){
-        var id = data[i].idMeal;
-        var name = data[i].strMeal;
-        // var name1 = data[0].strMeal;
-        var thumb = data[i].strMealThumb;
-        var des = data[i].strInstructions;
+const displayMeal = meals => {
+    const searchResult = document.getElementById('search-result');
+    searchResult.textContent = ''; // clear result while searching different things
+    //or
+    // searchResult.innerHTML = '';
+    // console.log(meals);
 
-        console.log (id, name);
-        var newDiv = document.createElement("div");
-        newDiv.classList.add("styles");
-        newDiv.innerHTML = `<p> Meal Name: ${name} </p>
-                            <img src=${thumb}>
-                            <p> ${des} </p>`;
+    meals.map(meal => {
+        // console.log(meal);
+        const div = document.createElement('div');
+        // here passing parameter value is string then we have to put it in quotation in no. 34
+        div.innerHTML =
+            `
+            <div class="col">
+                    <div onclick ="loadMealById(${meal.idMeal})" class="card card-custom">
+                        <img src="${meal.strMealThumb}" class="card-img-top img-fluid" alt="Food Result">
+                        <div class="card-body">
+                            <h5 class="card-title">${meal.strMeal}</h5>
+                            <p class="card-text">
+                            <div class="d-flex justify-content-evenly align-items-center">
+                            <span class="fw-bold">Area:</span> ${meal.strArea};
+                            <span class="fw-bold">Category:</span> ${meal.strCategory}
+                            </div>
+                            <span class="fw-bold">Ingredients:</span>
+                            <ul>
+                            <li>${meal.strIngredient1}</li>
+                            <li>${meal.strIngredient2}</li>
+                            <li>${meal.strIngredient3}</li>
+                            </ul>
+                            <span class="fw-bold">Instructions:</span>
+                            <p class="text-justify">
+                            ${meal.strInstructions.slice(0, 500)}
+                            </p>
+                            <span class="fw-bold">Ingredient Measure</span>
+                            <ul>
+                            <li>${meal.strMeasure1}</li>
+                            <li>${meal.strMeasure2}</li>
+                            </ul>
+                            <a href="${meal.strSource}" class="text-success">
+                            ${meal.strSource}
+                            </a><br>
+                            <a href="${meal.strYoutube}" class="text-danger">
+                            YouTube
+                            </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        `
+        searchResult.appendChild(div);
+    });
+}
 
-        infoBox.appendChild(newDiv);
+const loadMealById = async id => {
+    const url = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`;
 
-        // document.getElementById("first").src = thumb;
-        // document.getElementById("title").innerHTML = name1;
-        // document.getElementById("des").innerHTML = des;
+    const res = await (fetch(url));
+    const data = await res.json();
+    mealDetail(data.meals);
+    //or
+    // fetch(url).then((response) => response.json()).then(data => mealDetail(data.meals));
+}
 
-    }
+const mealDetail = (details) => {
+    const mealContainer = document.getElementById('meal-details');
+    mealContainer.textContent = '';
+    const div = document.createElement('div');
+    // console.log(details);
+    details.map(detail => {
+        console.log(detail);
+        div.innerHTML =
+            `
+  <img src="${detail.strMealThumb}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">${detail.strMeal}</h5>
+    <p class="card-text"> ${detail.strInstructions.slice(0, 500)}</p>
+    <a href="${detail.strYoutube}" class="btn btn-danger">YouTube</a>
+  </div>
+`
+        mealContainer.appendChild(div);
+    })
+
 }
