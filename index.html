@@ -48,8 +48,8 @@
                       <li class="nav-item">
                         <a class="nav-link" href="contact.html">contact us</a>
                       </li>
-
                     </ul>
+
                   </div>
                 </div>
               </nav>
@@ -92,13 +92,10 @@
     </div>
   </section>
   <section class="content mt-5">
-    <input id="textBox" type="text" placeholder="Enter a meals initial letter">
-    <button onclick="meals()">Show meals</button>
-    <div id="mealsData">
     <div class="container">
       <div class="row">
         <div id="mealsData" class="col-md-4">
-          <!-- <div class="card">
+          <div class="card">
           <img id="first" src="img/bg2.gif"class="img-fluid" alt="">
           <h4><b>Big Jumbo</b></h4>
           <p>The quality of beef and price are most important. To make cheeseburgers, about 1 minute before burgers are done, top with sliced cheese; continue cooking until cheese begins to melt.</p>
@@ -119,10 +116,10 @@
               <h4><b>Traditional Burger</b></h4>
           <p>A traditional ground beef burger can be a good, high-protein meal—especially if it's grass-finished beef, which we'll tell you more about in a second. Beef is one of the best sources of B12</p>
           <button class="btn btn-set">order now</button>
-               </div> -->
+               </div>
               </div>
       </div>
-      <!-- <div class="row">
+      <div class="row">
         <div class="col-md-4">
           <div class="card">
           <img src="img/6.png"class="img-fluid" alt="">
@@ -147,9 +144,29 @@
               <h4><b>Turkey Burger</b></h4>
           <p>Consider a turkey burger a stunt double for your ground beef patty. "If you choose a turkey burger made from ground breast meat, it will be ultra-lean, low in calories, and low in artery-clogging fat</p>
           <button class="btn btn-set">order now</button>
-               </div> -->
+               </div>
               </div>
       </div>
+
+      <section class="container">
+        <div class="input-group mb-3 w-75 w-lg-50 mx-auto">
+            <input id="search-field" type="text" class="form-control" placeholder="Search the food you want"
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button onclick="searchMeals()" class="btn btn-outline-success"  type="button"
+                id="button-search">Search</button>
+        </div>
+    </section>
+    <!-- meal search result -->
+    <section class="container">
+        <div id="meal-details" class="w-75 w-lg-50 mx-auto">
+
+        </div>
+        <div id="search-result"
+            class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center align-items-center">
+
+        </div>
+    </section>
+
     </div>
 </div>
 
