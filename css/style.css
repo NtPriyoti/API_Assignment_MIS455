@@ -494,4 +494,24 @@ display: none !important;
     padding: 2px 16px;
   }
 
+  .text-justify {
+    text-align: justify;
+}
+
+.card-custom {
+    box-Shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+    border-radius: 20px
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.781);
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    width: fit-content;
+}
+
 }
